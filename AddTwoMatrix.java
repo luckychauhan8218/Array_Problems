@@ -10,14 +10,14 @@ class AddTwoMatrix {
         System.out.println("Enter first matrix elements:");
         for (int i = 0; i < 2; i++) {
             for (int j = 0; j < 2; j++) {
-                a[i][j] = sc.nextInt();
+                a[i][j] = r.nextInt();
             }
         }
        // Input second matrix
         System.out.println("Enter second matrix elements:");
         for (int i = 0; i < 2; i++) {
             for (int j = 0; j < 2; j++) {
-                b[i][j] = sc.nextInt();
+                b[i][j] = r.nextInt();
             }
         }
        // Add matrices
